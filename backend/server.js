@@ -4,7 +4,7 @@ const cors = require('cors');
 const interactionsRouter = require('./src/routes/interactions');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(bodyParser.json());
